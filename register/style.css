@@ -1,0 +1,18 @@
+.__register-card--register-text {
+  font-size: 25px;
+  line-height: normal;
+}
+
+.__register-card--register-text + span {
+  font-size: 13px;
+}
+
+@media (max-width: 360px) and (max-height: 480px) {
+  .__register-card--register-text {
+    font-size: 15px;
+  }
+  .__register-card--register-text + span {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
