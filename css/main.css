@@ -1,5 +1,5 @@
 :root {
-  
+  --vector-size: 220px;
 }
 
 html, body {
@@ -8,9 +8,68 @@ html, body {
   height: 100%;
   margin: 0;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 * {
   box-sizing: border-box;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+nav {
+  background-color: transparent;
+  box-shadow: none;
+  width: fit-content;
+}
+
+.demo-layout-transparent {
+  background: url('https://bit.ly/2QGtuDx') center / cover;
+}
+
+.__brand-logo {
+  height: 35px;
+  width: 80px;
+}
+
+.__login-card--container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+}
+
+.__login-card--vector {
+  width: var(--vector-size);
+  height: var(--vector-size);
+}
+
+.__login-card--register-text {
+  max-width: 70%;
+  color: grey;
+}
+
+.__login-card--register-text a {
+  font-weight: 600;
+  color: #43bf82;
+}
+
+.__login-card--form-container {
+  min-width: 80%;
+}
+
+.mdl-textfield {
+  padding: 27px 0;
+}
+
+.__forgot-password-text {
+  font-size: 11px;
+}
+
+@media screen and (min-width: 576px) {
+  .__login-card--container {
+    margin-left: 2.5rem;
+    margin-right: auto;
+  }
 }
