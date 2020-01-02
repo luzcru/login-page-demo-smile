@@ -7,4 +7,7 @@ Static pages:
 
 redesigned from [smile](https://smile.com.ng/scp)
 
-new look [here](https://whizyrel.github.io/login-page-demo-smile/)
+new look:
+[landing page](https://whizyrel.github.io/login-page-demo-smile/)
+[forgot](https://whizyrel.github.io/login-page-demo-smile/forgot)
+[register](https://whizyrel.github.io/login-page-demo-smile/register)
