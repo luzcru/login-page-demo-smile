@@ -29,6 +29,10 @@ nav {
   background: url('https://bit.ly/2QGtuDx') center / cover;
 }
 
+.mdl-navigation__link {
+  font-size: 12px;
+}
+
 .__brand-logo {
   height: 35px;
   width: 80px;
@@ -78,6 +82,10 @@ nav {
     margin-left: 2.5rem;
     margin-right: auto;
     max-width: 350px;
+  }
+
+  .mdl-navigation__link {
+    font-size: 15px;
   }
 }
 
