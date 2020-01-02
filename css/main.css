@@ -81,7 +81,7 @@ nav {
 
 @media screen and (min-width: 576px) {
   .__login-card--container {
-    margin-left: 2.5rem;
+    margin-left: 15%;
     margin-right: auto;
     max-width: 350px;
   }
