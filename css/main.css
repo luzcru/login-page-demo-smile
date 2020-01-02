@@ -35,10 +35,6 @@ nav {
   font-weight: 600;
 }
 
-input[type=text]:not(.browser-default) {
-  height: 4rem;
-}
-
 .__brand-logo {
   height: 35px;
   width: 80px;
@@ -110,8 +106,12 @@ input[type=text]:not(.browser-default) {
     margin-bottom: .5rem!important;
   }
 
+  input[type=text]:not(.browser-default) {
+    height: 4rem;
+  }
+
   .__login-card--register-text {
     font-size: 11px;
-    line-height: 15px;
+    line-height: 13px;
   }
 }
