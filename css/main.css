@@ -9,6 +9,7 @@ html, body {
   margin: 0;
   overflow-x: hidden;
   overflow-y: hidden;
+  font-family: 'Varela Round', sans-serif;
 }
 
 * {
@@ -31,6 +32,7 @@ nav {
 
 .mdl-navigation__link {
   font-size: 12px;
+  font-weight: 600;
 }
 
 .__brand-logo {
